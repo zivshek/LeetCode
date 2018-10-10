@@ -4,7 +4,7 @@
 
 At first glance, I thought it is the same as the learning problem [Two Sum II](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1153/), and I was gonna use the two-pointer technique. Then I realized this array is not sorted. I can sort it for sure, but then the indices would change.
 
-It can be done easily with two loops, we just compare each element with the rest (only those haven't been compared yet, thus **j = i + 1;**), the problem is the time complexity would be n * /sigma (n - 1 => 1), which basically is O(n * n).
+It can be done easily with two loops, we just compare each element with the rest (only those haven't been compared yet, thus **j = i + 1;**), the problem is the time complexity would be n * sigma (n - 1 => 1), which basically is O(n * n).
 
 
 
