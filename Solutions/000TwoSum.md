@@ -10,7 +10,7 @@ It can be done easily with two loops, we just compare each element with the rest
 
 ### Solutions:
 
-1. 
+##### C++ Solution 1
 ```C++
 class Solution {
 public:
