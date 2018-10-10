@@ -1,4 +1,4 @@
-# [1. Two Sum] (https://leetcode.com/problems/two-sum/description/)
+# [1. Two Sum](https://leetcode.com/problems/two-sum/description/)
 
 ### Thoughts:
 
@@ -26,6 +26,4 @@ public:
     }
 };
 ```
-Time complexity: O(n * n)
-
-Space complexity: O(1)
+Time complexity: O(n * n), Space complexity: O(1)
