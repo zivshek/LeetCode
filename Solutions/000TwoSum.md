@@ -12,7 +12,7 @@ So I wrote this simplified HashTable class(non template fancy stuff, no remove o
 
 Btw, when testing a key that's negative, my hash() function would also return a negative index, which would be invalid, so my temp solution is to add a random large number, 123456, which is not the correct way, but I'll leave it like this for now, because the best practice is to use std::map or std::unordered_map instead. 
 
-As to efficiency, for this simple case, since we are dealing with integers, there would be no possiblity we would ever encounter collision problem, so the look up time would be just 1 operation. But I believe even at more complex situations, a good defined HastTable class would prevent from having too many nodes in one entry. However, if the worst senario happens, the look up time would still be O(n). For this case tho, O(1). As to space complexity, the space should at least be as big as the size of the array being passed in, so O(n). [[=>Goto solution2]](#c-solution-2-hashTable)
+As to efficiency, for this simple case, since we are dealing with integers, there would be no possiblity we would ever encounter collision problem, so the look up time would be just 1 operation. But I believe even at more complex situations, a good defined HastTable class would prevent from having too many nodes in one entry. However, if the worst senario happens, the look up time would still be O(n). For this case tho, O(1). As to space complexity, the space should at least be as big as the size of the array being passed in, so O(n). [[=>Goto solution2]](#c-solution-2-hashtable)
 
 
 ### Solutions:
